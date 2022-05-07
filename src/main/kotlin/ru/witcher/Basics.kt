@@ -4,7 +4,7 @@ import kotlinx.coroutines.*
 
 fun main() {
     scopeAndContext()
-    jobLifecycle()
+//    jobLifecycle()
 }
 
 fun scopeAndContext() {
@@ -52,6 +52,5 @@ fun jobLifecycle() {
     job.start()
     println(job)
     println(runBlocking { job.await() })
-    job.cancel()
     println(job)
 }
