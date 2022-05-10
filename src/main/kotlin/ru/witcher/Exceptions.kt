@@ -113,4 +113,4 @@ fun dealingWithExceptions() = runBlocking {
 //    }
 }
 
-fun throwException(msg: String): Unit = throw RuntimeException(msg)
+fun throwException(msg: String): String = throw RuntimeException(msg)
