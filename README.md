@@ -1,0 +1,1 @@
+Разбор примеров из серии статей [Cancellation and Exceptions in Coroutines](https://medium.com/androiddevelopers/coroutines-first-things-first-e6187bf3bb21) 
